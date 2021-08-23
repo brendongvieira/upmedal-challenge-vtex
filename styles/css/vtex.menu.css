@@ -1,0 +1,13 @@
+.menuContainer {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.styledLinkContent {
+  color: white;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}

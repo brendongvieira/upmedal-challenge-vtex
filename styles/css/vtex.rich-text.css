@@ -1,3 +1,13 @@
 .container {
   margin-top: 50px;
 }
+
+.paragraph {
+  align-items: center;
+  justify-content: center;
+  place-content: center;
+  color: #fff;
+  font-size: 20px;
+  margin-top: -20px;
+  display: flex;
+}

@@ -1,6 +1,5 @@
 .footerLayout {
-  background: transparent;
-  background-color: #424242;
+  background: #303030;
   max-height: 50px;
   position: fixed;
   bottom: 0;
@@ -9,10 +8,13 @@
 }
 
 .menuContainer {
-  background: #424242;
+  background: #303030;
+
   color: white;
+  display: flex;
 }
 
 .menuItem {
   color: white;
+  background: #303030;
 }

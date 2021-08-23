@@ -2,13 +2,27 @@
   color: #59ff00;
 }
 
+.container {
+}
+
 .contentContainer {
   padding: 100px;
+  width: 200px;
+}
+.LeadForm {
+  width: 100px;
+  display: flex;
 }
 
 .triggerContainer {
-  background: red;
+  background: #59ff00;
   justify-content: center;
   align-items: center;
-  color: white;
+  width: 300px;
+  display: flex;
+  border-radius: 20px;
+}
+
+.btn-primary {
+  background: #59ff00;
 }

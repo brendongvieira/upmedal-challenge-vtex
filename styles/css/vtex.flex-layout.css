@@ -47,7 +47,7 @@
   width: 100%;
   height: 70px;
   z-index: 3;
-  background-color: #424242;
+  background: #303030;
 }
 
 .flexRowContent--footerMenu {
@@ -62,5 +62,5 @@
   width: 100%;
   height: 50px;
   z-index: 3;
-  background-color: #424242;
+  background: #303030;
 }
