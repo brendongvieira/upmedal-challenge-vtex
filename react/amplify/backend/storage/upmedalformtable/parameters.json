@@ -1,0 +1,5 @@
+{
+    "tableName": "upmedalformtable",
+    "partitionKeyName": "id",
+    "partitionKeyType": "S"
+}

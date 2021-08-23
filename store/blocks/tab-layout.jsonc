@@ -1,0 +1,125 @@
+{
+  "tab-layout": {
+    "children": [
+      "tab-list",
+      "slider-layout#home-images",
+      "modal-trigger#first",
+      "tab-content"
+    ]
+  },
+  "tab-list": {
+    "children": [
+      "tab-list.item#1",
+      "tab-list.item#2",
+      "tab-list.item#3",
+      "tab-list.item#4",
+      "tab-list.item#5",
+      "tab-list.item#6"
+    ]
+  },
+
+  "tab-list.item#1": {
+    "props": {
+      "tabId": "promocao",
+      "label": "promoção",
+      "defaultActiveTab": true
+    }
+  },
+
+  "tab-list.item#2": {
+    "props": {
+      "tabId": "corinthians",
+      "label": "corinthians",
+      "defaultActiveTab": false
+    }
+  },
+
+  "tab-list.item#3": {
+    "props": {
+      "tabId": "palmeiras",
+      "label": "palmeiras",
+      "defaultActiveTab": false
+    }
+  },
+
+  "tab-list.item#4": {
+    "props": {
+      "tabId": "signos",
+      "label": "signos",
+      "defaultActiveTab": false
+    }
+  },
+
+  "tab-list.item#5": {
+    "props": {
+      "tabId": "divertidos",
+      "label": "divertidos",
+      "defaultActiveTab": false
+    }
+  },
+
+  "tab-list.item#6": {
+    "props": {
+      "tabId": "maravilhas",
+      "label": "7 maravilhas",
+      "defaultActiveTab": false
+    }
+  },
+
+  "tab-content": {
+    "children": [
+      "tab-content.item#promocao",
+      "tab-content.item#corinthians",
+      "tab-content.item#palmeiras",
+      "tab-content.item#signos",
+      "tab-content.item#divertidos",
+      "tab-content.item#maravilhas"
+    ]
+  },
+
+  "tab-content.item#promocao": {
+    "children": ["list-context.product-list#promocao"],
+    "props": {
+      "tabId": "promocao"
+    }
+  },
+  "tab-content.item#corinthians": {
+    "children": ["list-context.product-list#corinthians"],
+    "props": {
+      "tabId": "corinthians"
+    }
+  },
+  "tab-content.item#palmeiras": {
+    "children": ["list-context.product-list#palmeiras"],
+    "props": {
+      "tabId": "palmeiras"
+    }
+  },
+  "tab-content.item#signos": {
+    "children": ["list-context.product-list#signos"],
+    "props": {
+      "tabId": "signos"
+    }
+  },
+  "tab-content.item#divertidos": {
+    "children": ["list-context.product-list#divertidos"],
+    "props": {
+      "tabId": "divertidos"
+    }
+  },
+  "tab-content.item#maravilhas": {
+    "children": ["list-context.product-list#maravilhas"],
+    "props": {
+      "tabId": "maravilhas"
+    }
+  },
+
+  "rich-text": {
+    "props": {
+      "text": "PROMOS",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-1"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+.modal {
+  color: #59ff00;
+}
+
+.contentContainer {
+  padding: 100px;
+}
+
+.triggerContainer {
+  background: red;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}

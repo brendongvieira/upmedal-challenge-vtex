@@ -1,0 +1,23 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-upmedalproject-dev-143559-authRole",
+      "UnauthRoleArn": "arn:aws:iam::344306806025:role/amplify-upmedalproject-dev-143559-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::344306806025:role/amplify-upmedalproject-dev-143559-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-upmedalproject-dev-143559-deployment",
+      "UnauthRoleName": "amplify-upmedalproject-dev-143559-unauthRole",
+      "StackName": "amplify-upmedalproject-dev-143559",
+      "StackId": "arn:aws:cloudformation:us-east-1:344306806025:stack/amplify-upmedalproject-dev-143559/6c81ecb0-036f-11ec-b9c5-0e53bf60440d",
+      "AmplifyAppId": "d1c7f1a4yj4ebn"
+    },
+    "categories": {
+      "function": {
+        "upmedalfunction": {
+          "deploymentBucketName": "amplify-upmedalproject-dev-143559-deployment",
+          "s3Key": "amplify-builds/upmedalfunction-784d327034703764676b-build.zip"
+        }
+      }
+    }
+  }
+}

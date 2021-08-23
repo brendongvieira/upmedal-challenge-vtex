@@ -1,0 +1,35 @@
+{
+  "paths": [
+    {
+      "name": "/upmedalform",
+      "lambdaFunction": "upmedalfunction",
+      "privacy": {
+        "open": true
+      },
+      "policyResourceName": "/upmedalform"
+    }
+  ],
+  "resourceName": "upmedalformapi",
+  "apiName": "upmedalformapi",
+  "functionArns": [
+    {
+      "lambdaFunction": "upmedalfunction"
+    }
+  ],
+  "privacy": {
+    "auth": 0,
+    "unauth": 0,
+    "authRoleName": "amplify-upmedalproject-dev-143559-authRole",
+    "unAuthRoleName": "amplify-upmedalproject-dev-143559-unauthRole"
+  },
+  "dependsOn": [
+    {
+      "category": "function",
+      "resourceName": "upmedalfunction",
+      "attributes": [
+        "Name",
+        "Arn"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+.sliderLayoutContainer {
+  margin-bottom: 50px;
+  width: 100%;
+  background-color: transparent;
+}
+
+.sliderArrows {
+  margin-bottom: -300px;
+  width: 70%;
+  color: gray;
+}
+
+.slideChildrenContainer--carousel {
+  background-color: #303030;
+}
+
+.paginationDot--isActive {
+  color: rgb(83, 213, 27);
+  background: rgb(83, 213, 27);
+}
+
+.paginationDotsContainer--carousel {
+  margin-bottom: -20px;
+}

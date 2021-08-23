@@ -1,15 +1,180 @@
 {
-  "store.home": { 
-    "blocks": [
-      "rich-text"
-    ]
+  "store.home": {
+    "blocks": ["tab-layout"]
   },
-  "rich-text": { 
-    "props": { 
-      "text": "VTEX Store Framework",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "font": "t-heading-1"
+
+  // Definindo os cards de produto que irão aparecer em cada aba:
+
+  "list-context.product-list#promocao": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#promocao"],
+    "props": {
+      "category": "20/24",
+      "hideUnavailableItems": true,
+      "blockClass": "promocao"
     }
+  },
+
+  "slider-layout#promocao": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 2,
+        "tablet": 2,
+        "phone": 2
+      },
+      "infinite": true,
+      "showNavigationArrows": "false",
+      "blockClass": "promocao",
+      "autoPlay": {
+        "timeout": 5000,
+        "stopOnHover": true
+      }
+    }
+  },
+
+  "list-context.product-list#corinthians": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#corinthians"],
+    "props": {
+      "category": "20/22",
+      "hideUnavailableItems": true,
+      "blockClass": "corinthians"
+    }
+  },
+
+  "slider-layout#corinthians": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 8,
+        "tablet": 2,
+        "phone": 2
+      },
+      "infinite": true,
+      "showNavigationArrows": "false",
+      "blockClass": "corinthians",
+      "autoPlay": {
+        "timeout": 5000,
+        "stopOnHover": true
+      }
+    }
+  },
+
+  "list-context.product-list#palmeiras": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#palmeiras"],
+    "props": {
+      "category": "20/23",
+      "hideUnavailableItems": true,
+      "blockClass": "palmeiras"
+    }
+  },
+
+  "slider-layout#palmeiras": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 2,
+        "tablet": 2,
+        "phone": 2
+      },
+      "infinite": true,
+      "showNavigationArrows": "false",
+      "blockClass": "palmeiras",
+      "autoPlay": {
+        "timeout": 5000,
+        "stopOnHover": true
+      }
+    }
+  },
+  "list-context.product-list#signos": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#signos"],
+    "props": {
+      "category": "20/21",
+      "hideUnavailableItems": true,
+      "blockClass": "signos"
+    }
+  },
+
+  "slider-layout#signos": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 2,
+        "tablet": 2,
+        "phone": 2
+      },
+      "infinite": true,
+      "showNavigationArrows": "false",
+      "blockClass": "signos",
+      "autoPlay": {
+        "timeout": 5000,
+        "stopOnHover": true
+      }
+    }
+  },
+
+  "list-context.product-list#divertidos": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#divertidos"],
+    "props": {
+      "category": "20/25",
+      "hideUnavailableItems": true,
+      "blockClass": "divertidos"
+    }
+  },
+
+  "slider-layout#divertidos": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 2,
+        "tablet": 2,
+        "phone": 2
+      },
+      "infinite": true,
+      "showNavigationArrows": "false",
+      "blockClass": "divertidos",
+      "autoPlay": {
+        "timeout": 5000,
+        "stopOnHover": true
+      }
+    }
+  },
+
+  "list-context.product-list#maravilhas": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#maravilhas"],
+    "props": {
+      "category": "20/27",
+      "hideUnavailableItems": true,
+      "blockClass": "maravilhas"
+    }
+  },
+
+  "slider-layout#maravilhas": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 2,
+        "tablet": 2,
+        "phone": 2
+      },
+      "infinite": true,
+      "showNavigationArrows": "false",
+      "blockClass": "maravilhas",
+      "autoPlay": {
+        "timeout": 5000,
+        "stopOnHover": true
+      }
+    }
+  },
+
+  "modal-trigger#first": {
+    "children": ["rich-text#trigger", "modal-layout#first"]
+  },
+  "rich-text#trigger": {
+    "props": {
+      "text": "Receber cupom de desconto!"
+    }
+  },
+  "modal-layout#first": {
+    "children": ["newApp"]
   }
 }

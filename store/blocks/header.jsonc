@@ -6,10 +6,9 @@
     "blocks": ["header-layout.desktop", "header-layout.mobile"]
   },
   "header-layout.desktop": {
-    "children": [
-      "sticky-layout#desktop"
-    ]
+    "children": ["sticky-layout#desktop"] //Adicionado o tab-layout para fazer a parte de baixo do menu.
   },
+
   "sticky-layout#desktop": {
     "props": {
       "blockClass": "sticky-header"
@@ -28,8 +27,7 @@
       "flex-layout.col#logo-desktop",
       "flex-layout.col#spacer",
       "search-bar",
-      "locale-switcher",
-      "login",
+      "flex-layout.col#spacer",
       "minicart.v2"
     ]
   },
@@ -48,10 +46,11 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "https://brand.vtex.com/static/media/VTEX_pink_RGB.751a9fb5.svg",
+      "url": "https://maratonavirtual.s3.sa-east-1.amazonaws.com/upmedal.png",
       "width": "80"
     }
   },
+
   "header-layout.mobile": {
     "children": ["sticky-layout#mobile"]
   },
@@ -59,13 +58,7 @@
     "children": ["flex-layout.row#mobile"]
   },
   "flex-layout.row#mobile": {
-    "children": [
-      "drawer",
-      "logo",
-      "flex-layout.col#spacer",
-      "login",
-      "minicart.v2"
-    ],
+    "children": ["drawer", "logo", "flex-layout.col#spacer", "minicart.v2"],
     "props": {
       "blockClass": "main-header-mobile",
       "preventHorizontalStretch": true,

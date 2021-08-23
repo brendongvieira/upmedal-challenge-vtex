@@ -1,0 +1,15 @@
+.listContainer {
+  background: #212121;
+}
+
+.listItem :global(.vtex-button) {
+  background: transparent;
+  color: white;
+  border-color: transparent;
+}
+
+.listItemActive :global(.vtex-button) {
+  background: transparent;
+  border-bottom: 2px solid rgb(83, 213, 27);
+  color: rgb(83, 213, 27);
+}
