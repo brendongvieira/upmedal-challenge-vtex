@@ -24,6 +24,6 @@ Para este projeto foram utilizadas as seguintes tecnologias:
 
 Para a disposição dos produtos utilizei o product.shelf associado ao tab-layout para conseguir renderizar na página os produtos referentes a cada aba do menu superior. Ainda é preciso estilizar melhor a disposição dos produtos para que estes apareçam em duas colunas como no site original.
 
-Adicionei um modal-trigger como aba para receber o cupom de desconto e também tive dificuldade para estilizá-la. 
+Adicionei um modal-trigger como aba para receber o cupom de desconto e também foi desafiador estilizá-la. 
 
-Apesar de ter conseguido construir toda a estrutura do backend utilizando Amplify e a API estar funcionando normalmente, tive um problema de permissão de CORS, então não consigo enviar a requisição para a API Gateway. Tentei configurar as permissões do CORS pelo console porém não obtive sucesso.
+Apesar de ter conseguido construir toda a estrutura do backend utilizando Amplify e a API estar funcionando normalmente, tive um problema de permissão de CORS, então não consegui enviar a requisição para a API Gateway. 
